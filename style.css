@@ -1,0 +1,736 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: body;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+    font-family: body, sans-serif;
+}
+
+@font-face {
+    font-family: text1;
+    src: url(Fonts/Playfair_Display,Roboto/Playfair_Display/static/PlayfairDisplay-Regular.ttf);
+}
+
+@font-face {
+    font-family: text2;
+    src: url(Fonts/Playfair_Display,Roboto/Playfair_Display/static/PlayfairDisplay-Bold.ttf);
+}
+
+@font-face {
+    font-family: body;
+    src: url(Fonts/Open_Sans/static/OpenSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: boldtext;
+    src: url(Fonts/Open_Sans/static/OpenSans-ExtraBold.ttf);
+}
+
+.nav {
+    padding: 15px 0px 0px 0px;
+}
+
+.left-nav div {
+    color: #797979;
+    font-size: 14px;
+    font-family: text1;
+}
+
+.left-nav div a {
+    text-decoration: none;
+    color: #797979;
+    font-family: text1;
+
+}
+
+.left-nav div a:hover {
+    color: rgb(0, 81, 210);
+}
+
+.left-nav div:hover {
+    color: rgb(0, 81, 210);
+}
+
+.email {}
+
+.right-nav i {
+    color: #797979;
+}
+
+.right-nav i:hover {
+    color: rgb(0, 81, 210);
+}
+
+.navbar div a {
+    color: rgb(50, 50, 50);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    box-sizing: border-box;
+    margin-right: 40px;
+    padding: 10px 0px;
+}
+
+.main {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 100;
+}
+
+.navbar div a:hover {
+    color: rgb(0, 81, 210);
+}
+
+.navbar .dropdown .dropdown-content {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 140%;
+    padding: 0px;
+    width: 200px;
+    background-color: white;
+    z-index: 10;
+}
+
+.navbar .dropdown .dropdown-content a {
+    padding: 10px 30px !important;
+    margin: 0px !important;
+    display: block !important;
+}
+
+.navbar .dropdown .dropdown-content a:hover {
+    background-color: rgb(0, 81, 210) !important;
+    color: white;
+    transition: 1s ease;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.navbar i {
+    color: rgb(0, 81, 210);
+    font-size: 35px;
+}
+
+.home-banner {
+    background-image: url(images/home-banner\ \(1\).jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 83vh;
+    padding: 200px 0px;
+    background-position: center;
+}
+
+.home-banner h1 {
+    font-family: text2;
+    font-size: 45px;
+    margin-bottom: 50px;
+}
+
+.home-banner p {
+    color: #797979;
+    line-height: 2em;
+    font-size: 14px;
+}
+
+.button1 {
+    background-color: #0051D2;
+    border: none;
+    outline: none;
+    color: white;
+    font-family: text1;
+    height: 50px;
+    width: 190px;
+    font-size: 15px;
+
+}
+
+.button1:hover {
+    background: white;
+    color: #0051D2;
+    transition: 1s ease;
+}
+
+.button2 {
+    background: none;
+    border: 1px solid #0051D2;
+    outline: none;
+    color: #797979;
+    font-family: text1;
+    height: 50px;
+    width: 150px;
+    font-size: 15px;
+
+}
+
+.button2:hover {
+    background: #0051D2;
+    color: white;
+    transition: 1s ease;
+}
+
+.working {
+    background-image: url(images/pattern_bg.jpg);
+    background-size: cover;
+    padding: 60px 0px;
+    box-sizing: border-box;
+}
+
+.working .row>div>div {
+    background-color: white;
+    padding: 40px 15px;
+    box-sizing: border-box;
+    width: 100%;
+
+}
+
+.working .row>div div i {
+    color: rgb(0, 82, 211);
+    font-size: 25px;
+}
+
+.working .row>div div h3 {
+    color: #020A21;
+    font-size: 20px;
+    font-family: text2;
+}
+
+@media (max-width:576px) {
+    .home-banner h1 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width:768px) {
+    .health-service div h1 {
+        font-size: 25px;
+    }
+}
+
+@media (max-width:998px) {
+    .working .row>div div h3 {
+        font-size: 18px;
+    }
+
+    .health-service div h1 {
+        font-size: 30px;
+    }
+}
+
+.working .row>div p {
+    font-size: 13px;
+    line-height: 1.8em;
+    color: #797979;
+    margin: 0;
+}
+
+.service-item {
+    background-color: white;
+    padding: 60px 30px;
+    border: 1px solid rgb(241, 236, 236);
+    z-index: 2;
+}
+
+.health-service {
+    margin-top: 100px;
+}
+
+.heading1 {
+    font-family: text2, sans-serif;
+    font-size: 35px;
+}
+
+.paragraph1 {
+    font-size: 14px;
+    color: #797979;
+}
+
+.health-service h3 {
+    font-family: text2;
+    color: #33363E;
+    font-size: 20px;
+}
+
+.service-text p {
+    color: #797979;
+}
+
+.health-service .img-div {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #ECF0F8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.health-service .img-div img {
+    width: 60%;
+    height: 60%;
+}
+
+.anchor {
+    color: #797979;
+    font-size: 14px;
+    text-decoration: none;
+    font-family: text1;
+    letter-spacing: 1.5px;
+}
+
+.anchor:hover {
+    text-underline-offset: 7px;
+    text-decoration: 2px underline #0051D2;
+    color: #0051D2;
+    transition: 1s ease;
+}
+
+.about-area {
+    background: #f7f7f7;
+    background-image: url(images/about1.png);
+    background-repeat: no-repeat;
+    background-position: -150px 200px;
+    position: relative;
+    padding-top: 300px;
+    padding-bottom: 210px;
+    margin-top: -180px;
+
+}
+
+@media (max-width:998px) {
+    .about-area {
+        background: none;
+    }
+}
+
+@media (max-width:576px) {
+    .about-area div h1 {
+        font-size: 25px;
+    }
+
+    .doctors div h1 {
+        font-size: 28px;
+    }
+
+    .doctors div p {
+        font-size: 16px;
+    }
+}
+
+.about-area h1 {
+    font-family: text2;
+    font-size: 31.5px;
+    color: rgb(51, 51, 51);
+}
+
+.about-area p {
+    font-size: 14px;
+}
+
+.doctors {
+    margin-top: 30px;
+}
+
+.doctor-name .doctor-foot {
+    color: #797979;
+    font-size: 14px;
+}
+
+.doctor-name .doctor-foot .fa-brands {
+    margin-right: 15px;
+}
+
+.doctor-name .doctor-foot .fa-brands:hover {
+    color: rgb(0, 81, 210);
+}
+
+.doctor-name h3 {
+    font-family: text2, sans-serif;
+    font-size: 20px;
+}
+
+.doctor-name p {
+    color: #797979;
+    font-size: 14px;
+}
+
+.doctor-name>div {
+    padding: 20px 10px;
+}
+
+@media (max-width:300px) {
+    .doctor-foot {
+        flex-direction: column;
+    }
+
+    .doctor-foot div {
+        margin-bottom: 20px;
+    }
+
+    .appointment-form div .button3 {
+        width: 80% !important;
+        font-size: 12px !important;
+    }
+}
+
+.appointment-form>div {
+    box-shadow: 0px 0px 8px 2px #c9c9c9;
+    padding: 60px 100px;
+    background-color: white;
+}
+
+.appointment-form div h5 {
+    font-family: text2;
+    font-size: 22px;
+}
+
+@media (max-width:576px) {
+    .heading2 {
+        font-size: 18px !important;
+    }
+
+    .appointment-form>div {
+        padding: 60px 50px;
+
+    }
+
+}
+
+.appointment-form div p {
+    color: #33363E;
+    font-size: 14px;
+    font-family: text1;
+}
+
+.appointment-form div input {
+    outline: none;
+    border: none;
+    height: 50px;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+
+.appointment-form div input:focus {
+    border: 2px solid black;
+}
+
+.appointment-form div input::placeholder {
+    font-size: 13px;
+}
+
+.appointment-form div textarea {
+    outline: none;
+    border: none;
+    height: 125px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.appointment-form div textarea:focus {
+    border: 2px solid black;
+}
+
+.appointment-form div textarea::placeholder {
+    font-size: 13px;
+}
+
+.good-man {
+    background: #f7f7f7;
+    background-image: url(images/bg_2.png);
+    background-size: cover;
+    padding: 460px 0 95px 0;
+    position: relative;
+    margin-top: -335px;
+    z-index: -10;
+    color: #797979;
+}
+
+.good-man .col-10 div {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.good-man .col-10 div img {
+    width: 100%;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.good-man p {
+    color: #797979;
+    font-style: italic;
+    text-align: center;
+    font-size: 21px;
+}
+
+.good-man h6 {
+    color: #33363E;
+    font-family: text1;
+    font-size: 19px;
+}
+
+@media (max-width:1199px) {
+    .good-man p {
+        color: #797979;
+        font-style: italic;
+        text-align: center;
+        font-size: 18px;
+    }
+}
+
+.emergency>div {
+    background-image: url(images/bg1\ \(1\).jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 150px 0px;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 1;
+    background-color: #b0b0b0;
+    color: white;
+
+}
+
+.emergency>div:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #0d479d9c;
+    z-index: -1;
+}
+
+.emergency h6 {
+    font-family: text1;
+    font-size: 20px;
+}
+
+.emergency h1 {
+    font-family: boldtext;
+    font-size: 60px;
+}
+
+.emergency p {
+    font-size: 15px;
+}
+
+@media (max-width:998px) {
+    .emergency div h1 {
+        font-size: 40px;
+    }
+}
+
+@media (max-width:768px) {
+    .emergency div h1 {
+        font-size: 35px !important;
+    }
+}
+
+@media (max-width:576px) {
+    .emergency div h1 {
+        font-size: 22px !important;
+    }
+
+    .updates div .heading1 {
+        font-size: 25px;
+    }
+}
+
+.updates {
+    padding: 150px 0px 0px 0px;
+}
+
+.updates .update-text {
+    padding: 40px 0px;
+}
+
+.update-text h6 span {
+    color: #797979;
+    font-size: 14px;
+}
+
+.update-text h6 span:hover {
+    color: #0051D2;
+}
+
+.update-text p {
+    font-family: text1;
+    color: #020A21;
+    font-size: 20px;
+}
+
+.update-text p:hover {
+    color: #0051D2;
+}
+
+.update-text>div>div {
+    font-size: 14px;
+    color: #797979;
+}
+
+.update-text>div>div i {
+    margin-top: 5px;
+}
+
+.update-text>div>div:hover {
+    color: #0051D2;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div,
+p,
+button,
+img,
+a,
+i,
+span {
+    transition: 1s ease;
+}
+
+.updates .update-img {
+    overflow: hidden;
+}
+
+.updates img {
+    width: 100%;
+    transition: all 300ms linear 0s;
+}
+
+.updates img:hover {
+    transform: scale(1.1);
+
+}
+
+.footer {
+    background-color: #f7f7f7;
+    padding: 200px 0px 200px 0px;
+}
+
+.footer img {
+    opacity: 0.5;
+}
+
+.footer img:hover {
+    opacity: 1;
+}
+
+.foot h3 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-family: text2;
+}
+
+.foot ul {
+    padding: 0px;
+}
+
+.foot ul li {
+    list-style-type: none;
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #797979;
+}
+
+.foot ul li:hover {
+    color: #0051D2;
+}
+
+.foot p {
+    color: #797979;
+    font-size: 14px;
+}
+
+.foot button {
+    background-color: #0051D2;
+    padding: 8px 20px;
+    border: none;
+    outline: none;
+}
+
+.foot input {
+    height: 50px;
+    width: 80% !important;
+    padding: 0px 20px;
+    border: none;
+    outline: none;
+}
+
+.foot input::placeholder {
+    font-size: 14px;
+    color: #797979;
+}
+
+@media (max-width:300px) {
+    .foot form {
+        flex-direction: column;
+    }
+
+    .foot form button {
+        width: 25%;
+        padding: 8px 20px;
+    }
+}
+
+.foot-anchor {
+    background-color: #33363E;
+    width: 30px;
+    height: 30px;
+    color: #b0b0b0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin-right: 5px;
+}
+
+.foot-anchor:hover {
+    background-color: #0051D2;
+    color: white;
+}
+
+.department-banner {
+    background-image: url(images/banner-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px 0px;
+}
+
+.department-banner h1 {
+    font-family: text2, sans-serif;
+    font-size: 40px;
+    margin-bottom: 15px;
+    color: black;
+}
+
+.department-banner p {
+    color: #797979;
+}
+
+.department-banner h6 {
+    color: black;
+    font-size: 14px;
+}
+
+@media (max-width:576px) {
+    .department-banner h1 {
+        font-size: 25px;
+    }
+}
+
+@media (max-width:150px) {
+    .department-banner h1 {
+        font-size: 13px;
+    }
+}
